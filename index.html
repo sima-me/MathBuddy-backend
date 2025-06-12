@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Devsima - AI Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Devsima</h1>
+      <p>Your home for AI tools, automation & learning.</p>
+    </header>
+
+    <main>
+      <section id="chatbot">
+        <h2>💬 Try MathBuddy</h2>
+        <div id="chat-box">
+          <div
+            id="messages"
+            style="
+              height: 300px;
+              overflow-y: auto;
+              background: #f4f4f4;
+              padding: 10px;
+              border: 1px solid #ccc;
+            "
+          ></div>
+          <input
+            type="text"
+            id="userInput"
+            placeholder="Ask me a math question..."
+          />
+          <button onclick="sendMessage()">Send</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Built by Devsima · AI Enthusiast & Developer</p>
+    </footer>
+
+    <script src="scripts/chat.js"></script>
+  </body>
+</html>
