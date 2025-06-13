@@ -3,43 +3,72 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Devsima - AI Portfolio</title>
+    <title>Devsima AI Lab</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="images/mathbuddyicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <h1>Devsima</h1>
-      <p>Your home for AI tools, automation & learning.</p>
+      <img
+        src="images/mathbuddylogo.png"
+        alt="MathBuddy Logo"
+        style="height: 100px"
+      />
+      <h1>Devsima AI Lab</h1>
+      <p>Learning. Automating. Sharing.</p>
     </header>
 
     <main>
-      <section id="chatbot">
-        <h2>💬 Try MathBuddy</h2>
-        <div id="chat-box">
-          <div
-            id="messages"
-            style="
-              height: 300px;
-              overflow-y: auto;
-              background: #f4f4f4;
-              padding: 10px;
-              border: 1px solid #ccc;
-            "
-          ></div>
-          <input
-            type="text"
-            id="userInput"
-            placeholder="Ask me a math question..."
-          />
-          <button onclick="sendMessage()">Send</button>
-        </div>
+      <section class="intro">
+        <h2>👋 Welcome to Devsima!</h2>
+        <p>
+          This is where I explore, build, and share all things AI. From math
+          bots to ServiceNow automation, I document my journey and creations
+          here.
+        </p>
+      </section>
+
+      <section class="project-section">
+        <h2>⚙️ Projects</h2>
+        <ul class="project-list">
+          <li>
+            <strong>📐 MathBuddy:</strong> An AI-powered math tutor chatbot.
+          </li>
+          <li>
+            <strong>🤖 AI Tools:</strong> A growing set of custom GPTs and ML
+            apps.
+          </li>
+          <li>
+            <strong>🔁 Automation:</strong> AI + scripting to automate everyday
+            tasks.
+          </li>
+          <li>
+            <strong>🧠 Knowledge Sharing:</strong> Insights and notes from daily
+            learning.
+          </li>
+          <li>
+            <strong>🧑‍💼 ServiceNow AI:</strong> Automation and knowledge hacks in
+            ServiceNow.
+          </li>
+        </ul>
+      </section>
+
+      <section class="highlight">
+        <h2>✨ Featured: MathBuddy</h2>
+        <p>
+          Try out MathBuddy, your friendly AI math chatbot built to help with
+          algebra, geometry, and more!
+        </p>
+        <a href="chatbot.html" class="button">Open MathBuddy</a>
       </section>
     </main>
 
     <footer>
-      <p>Built by Devsima · AI Enthusiast & Developer</p>
+      <p>&copy; 2025 Devsima — Building the future, one bot at a time.</p>
     </footer>
-
-    <script src="scripts/chat.js"></script>
   </body>
 </html>

@@ -1,4 +1,4 @@
-const apiUrl = "http://127.0.0.1:5000/chat"; // This will be updated later to Render URL
+const apiUrl = "https://mathbuddy-backend-x5pa.onrender.com"; // This will be updated later to Render URL
 
 document.addEventListener("DOMContentLoaded", function () {
   const inputField = document.getElementById("userInput");
